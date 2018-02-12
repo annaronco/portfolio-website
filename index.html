@@ -7,8 +7,10 @@
         <title>Anna Ronco Portfolio</title>
         <meta name="description" content="Logo, branding, illustration, UX, web design and front end development.">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/styles.css">
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     </head>
 
     <body>
@@ -22,7 +24,7 @@
             </nav>
             <div class="name">
                 <span class="name-line"><strong>Anna Ronco</strong></span>
-                <span class="name-line">Designer and Developer</span>
+                <span class="name-line">Graphic and UX Designer</span>
             </div>
         </header>
 
@@ -30,7 +32,7 @@
             <section class="section-welcome">
                 <div class="hello-text">
                     <h1>Hello There!</h1>
-                    <p>My name is Anna Ronco and I'm a&nbsp;designer and front end web developer.</p>
+                    <p>My name is Anna Ronco and I'm a&nbsp;graphic and UX designer.</p>
                     <p>Welcome to my portfolio!</p>
                 </div>
             </section>
@@ -39,55 +41,53 @@
                         <h1>Featured Work</h1>
                 </header>
                 <p>A selection of works from the area of branding and logo design, illustration, web / UX design and front end development.</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <article class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                            <a href="portfolio/ene-due.html">
-                                <img src="img/ene-due-thumb-medium.png" srcset="img/ene-due-thumb-small.png 1x, img/ene-due-thumb-medium.png 2x, ene-due-thumb-hd.png 3x" class="thumb" alt="Ene Due">
-                            </a>
-                            <a href="portfolio/ene-due.html" class="title-link">
+                <section class="projects">
+
+                    <article class="project-tile biohub-tile">
+                        <a href="portfolio/biohub.html">
+                            <div class="overlay">
+                                <h2>BioHub</h2>
+                                <p>Branding and UX Design</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="project-tile ene-due-tile">
+                        <a href="portfolio/ene-due.html">
+                            <div class="overlay">
                                 <h2>Ene Due</h2>
-                            </a>
-                        </article>
-                        <article class="project-tile col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                            <a href="portfolio/bio-hub.html">
-                                <img src="img/bio-hub-thumb-medium.png" srcset="img/bio-hub-thumb-small.png 1x, img/bio-hub-thumb-medium.png 2x, img/bio-hub-thumb-hd.png 3x" class="thumb" alt="Bio Hub">
-                            </a>
-                            <a href="portfolio/bio-hub.html" class="title-link">
-                                <h2>Bio Hub</h2>
-                            </a>
-                        </article>
-                        <article class="project-tile project-tile col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                            <a href="portfolio/push2cloud.html">
-                                <img src="img/push2cloud-thumb-medium.png" srcset="img/push2cloud-thumb-small.png 1x, img/push2cloud-thumb-medium.png 2x, img/push2cloud-thumb-hd.png 3x" class="thumb" alt="Push 2 Cloud">
-                            </a>
-                            <a href="portfolio/push2cloud.html" class="title-link">
-                                <h2>Push2Cloud</h2>
-                            </a>
-                        </article>
-                        <article class="project-tile col-xs-12 col-sm-6 col-lg-4 col-xl-3">
-                            <a href="portfolio/rekrutor.html">
-                                <img src="img/rekrutor-thumb-medium.png" srcset="img/rekrutor-thumb-small.png 1x, img/rekrutor-thumb-medium.png 2x, img/rekrutor-thumb-hd.png 3x" class="thumb" alt="Push 2 Cloud">
-                            </a>
-                            <a href="portfolio/rekrutor.html" class="title-link">
-                                <h2>Rekrutor</h2>
-                            </a>
-                        </article>
-                    </div>
-                </div>
-            </section>
-            <section class="section-work">
+                                <p>Illustration</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="project-tile axonic-tile">
+                        <a href="portfolio/axonic.html">
+                            <div class="overlay">
+                                <h2>Axonic</h2>
+                                <p>Branding</p>
+                            </div>
+                        </a>
+                    </article>
+
+                    </article>
+                </section>
+            <!-- </section>
+           <section class="section-work">
                 <header>
                         <h1>Let's Create!</h1>
                 </header>
                 <p>If you like my work and would like to cooperate on your project, please do not hesitate to contact me.</p>
-                <button class="action-button" type="button" onclick="clickAlert()">Let's Do It!</button> <!-- TODO: Improve the prompt when lesson on js is unlocked and complete. -->
+                <button class="action-button" type="button" onclick="clickAlert()">Let's Do It!</button> -->
             </section>
         </main>
 
         <footer>
             <span class="copyright">Copyrigh &copy; Anna Ronco 2017</span>
-            <span class="instagram"><a href="https://www.instagram.com/enidanglenna/" class="instagram-link" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>Check out my instagram!</a></span>
+            <span class="social-media">
+                <a href="https://www.linkedin.com/in/anna-ronco-97665b63" target="_blank" alt="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/enidanglenna/" target="_blank" alt="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </span>
         </footer>
 
         <script src="js/script.js"></script>
