@@ -124,6 +124,10 @@ li {
     background-image: url("../img/axonic-thumb-medium.png");
 }
 
+.hub-concept-tile {
+    background-image: url("../img/hub-concept-thumb-medium.png");
+}
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -411,4 +415,23 @@ footer .social-media {
 
 .axonic-project-nav {
     background: #628dea;
+}
+
+/* HUB.concept */
+
+.hub-concept {
+    background-color: #e3e3e6;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.hub-concept-top {
+    margin: auto;
+    max-width: 500px;
+    padding: 10% 50px;
+    width: 80%;
+}
+
+.hub-concept-project-nav {
+    background: #e51f49;
 }
