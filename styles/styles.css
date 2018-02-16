@@ -52,7 +52,7 @@ li {
 }
 
 .nav-link {
-    color: #000;
+    color: #d1a054;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.3em;
@@ -63,7 +63,7 @@ li {
 }
 
 .nav-link:hover {
-    color: #d1a054;
+    color: #84754e;
     cursor: pointer;
 }
 
@@ -281,7 +281,11 @@ footer .social-media {
         grid-template-columns: 1fr;
         -ms-template-columns: 1fr;
         grid-gap: 40px;
-        padding: 20px 5px 50px 5px;
+        padding: 20px 10px 50px 10px;
+    }
+
+    .metric {
+        text-align: left;
     }
 }
 
