@@ -202,7 +202,7 @@ footer .social-media {
 
 @media screen and (max-width: 500px) {
     body {
-        padding: 2px;
+        padding: 0;
     }
 
     .projects {
@@ -416,15 +416,18 @@ footer .social-media {
 
 .hub-concept {
     background-color: #e3e3e6;
-    padding-bottom: 50px;
     text-align: center;
 }
 
 .hub-concept-top {
     margin: auto;
     max-width: 500px;
-    padding: 10% 50px;
+    padding: 10% 50px 2% 50px;
     width: 80%;
+}
+
+.hub-concept .screen {
+    margin-top: 4%;
 }
 
 .hub-concept-project-nav {
