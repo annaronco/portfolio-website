@@ -128,6 +128,10 @@ li {
     background-image: url("../img/hub-concept-thumb-medium.png");
 }
 
+.z3strony-tile {
+    background-image: url("../img/z3strony-thumb-medium.png");
+}
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -307,6 +311,10 @@ footer .social-media {
     width: 80%;
 }
 
+.carousel {
+    margin: auto;
+}
+
 .project-description {
     align-self: center;
     font-size: 18px;
@@ -432,4 +440,39 @@ footer .social-media {
 
 .hub-concept-project-nav {
     background: #e51f49;
+}
+
+/* z3strony */
+
+.z3strony .screen {
+    max-width: 800px;
+}
+
+.z3strony {
+    background: #dfdfde;
+    text-align: center;
+    padding: 7% 0;
+}
+
+.z3strony-project-nav {
+    background: #32768b;
+}
+
+/* Comvai */
+
+.comvai {
+    background-color: #e3e3e6;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+.comvai-top {
+    margin: auto;
+    max-width: 1000px;
+    padding: 10% 50px 2% 50px;
+    width: 80%;
+}
+
+.comvai-project-nav {
+    background: #81d68d;
 }
