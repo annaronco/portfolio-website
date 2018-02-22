@@ -463,14 +463,11 @@ footer .social-media {
 .app-cloud {
     background: #eef3f6;
     text-align: center;
-    padding: 7% 0;
+    padding-bottom: 7%;
 }
 
 .app-cloud-top {
-    margin: auto;
-    max-width: 1000px;
-    padding: 10% 50px 2% 50px;
-    width: 80%;
+    margin-bottom: 10%;
 }
 
 .app-cloud .project-description {
@@ -480,8 +477,8 @@ footer .social-media {
 }
 
 .rocket {
-    width: 100px;
-    margin-bottom: 5%;
+    width: 80px;
+    margin-bottom: 3%;
 }
 
 .app-cloud-title {
@@ -501,4 +498,17 @@ footer .social-media {
 
 .carousel {
     margin: auto;
+}
+
+.carousel-images {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#1781e3' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#1781e3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
