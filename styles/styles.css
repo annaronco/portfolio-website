@@ -146,7 +146,7 @@ li {
     width: 100%;
     height: 100%;
     -webkit-transform: scale(0);
-    transition: 0.3s ease;
+    transition: 0 ease;
     padding: 50px;
   }
 
@@ -471,6 +471,28 @@ footer .social-media {
     max-width: 1000px;
     padding: 10% 50px 2% 50px;
     width: 80%;
+}
+
+.app-cloud .project-description {
+    padding: 0 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.rocket {
+    width: 100px;
+    margin-bottom: 5%;
+}
+
+.app-cloud-title {
+    color: #1781e3;
+    font-size: 400%;
+    margin-bottom: 5%;
+}
+
+.app-cloud-text {
+    color: #1781e3;
+    margin-bottom: 15%;
 }
 
 .app-cloud-project-nav {
