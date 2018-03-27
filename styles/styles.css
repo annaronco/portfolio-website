@@ -390,6 +390,11 @@ footer .social-media {
     width: 80%;
 }
 
+.biohub-text {
+    color: #133466;
+    margin: 15% 0;
+}
+
 .biohub-project-nav {
     background: #62bd74;
 }
@@ -407,6 +412,11 @@ footer .social-media {
     max-width: 500px;
     padding: 10% 50px;
     width: 80%;
+}
+
+.axonic-text {
+    color: #628dea;
+    margin-bottom: 15%;
 }
 
 .axonic-project-nav {
@@ -475,7 +485,7 @@ footer .social-media {
 }
 
 .z3strony-project-nav {
-    background: #32768b;
+    background: #333;
 }
 
 /* App-cloud */
