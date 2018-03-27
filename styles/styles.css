@@ -386,13 +386,13 @@ footer .social-media {
 .biohub-top {
     margin: auto;
     max-width: 500px;
-    padding: 10% 50px;
+    padding: 10% 50px 7% 50px;
     width: 80%;
 }
 
 .biohub-text {
     color: #133466;
-    margin: 15% 0;
+    margin-bottom: 15%;
 }
 
 .biohub-project-nav {
