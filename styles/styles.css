@@ -52,11 +52,11 @@ li {
 }
 
 .nav-link {
-    color: #d1a054;
+    color: #000;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.3em;
-    margin-left: 15px;
+    margin-left: 30px;
     padding: 0;
     text-decoration: none;
     text-transform: uppercase;
@@ -127,6 +127,10 @@ li {
     background-image: url("../img/app-cloud-thumb-medium.png");
 }
 
+.esc-tile {
+    background-image: url("../img/esc-thumb-medium.png");
+}
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -174,12 +178,12 @@ footer .social-media {
 .fa-instagram,
 .fa-linkedin {
     padding-left: 5px;
-    color: #d1a054;
+    color: #fff;
 }
 
 .fa-instagram:hover,
 .fa-linkedin:hover {
-    color: #84754e;
+    color: #fff;
 }
 
 @media screen and (max-width: 541px) {
@@ -541,4 +545,42 @@ footer .social-media {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#1781e3' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* Esc */
+
+.esc {
+    background: #f9fafc;
+    text-align: center;
+}
+
+.esc-top {
+    margin-bottom: 10%;
+}
+
+.esc .project-description {
+    padding: 0 5%;
+    margin: auto;
+    text-align: left;
+}
+
+.swisscom {
+    width: 60px;
+    margin-bottom: 6%;
+    margin-left: -25px;
+}
+
+.esc-title {
+    color: #1781e3;
+    font-size: 350%;
+    margin-bottom: 5%;
+}
+
+.esc-text {
+    color: #1781e3;
+    margin-bottom: 15%;
+}
+
+.esc-project-nav {
+    background: #1781e3;
 }
